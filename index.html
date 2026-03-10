@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darkness Ripper</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    canvas { display: block; }
+    .hint {
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      color: rgba(255,255,255,0.75);
+      background: rgba(0,0,0,0.35);
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 12px;
+      line-height: 1.6;
+      backdrop-filter: blur(4px);
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="hint">
+    Move your hand (or any object) in front of the webcam.<br/>
+    The motion pulls the vortex center.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "darkness-ripper",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Webcam motion-driven noisy vortex (p5.js).",
+  "scripts": {
+    "dev": "npx vite --host",
+    "build": "npx vite build",
+    "preview": "npx vite preview --host"
+  }
+}
